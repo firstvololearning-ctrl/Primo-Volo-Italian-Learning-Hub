@@ -73,7 +73,7 @@
     { id:"roma", name:"Roma", regionId:"lazio", x:48.0, y:46.7, labelDx:-18, labelDy:22, unlockAt:12 },
     { id:"napoli", name:"Napoli", regionId:"campania", x:57.5, y:55.3, labelDx:-8, labelDy:25, unlockAt:14 },
     { id:"lecce", name:"Lecce", regionId:"puglia", x:74.5, y:59.4, labelDx:20, labelDy:20, unlockAt:16 },
-    { id:"palermo", name:"Palermo", regionId:"sicilia", x:52.7, y:77.7, labelDx:-10, labelDy:22, unlockAt:18 },
+    { id:"palermo", name:"Palermo", regionId:"sicilia", x:50.0, y:83.0, labelDx:-10, labelDy:22, unlockAt:18 },
     { id:"cagliari", name:"Cagliari", regionId:"sardegna", x:29.8, y:68.6, labelDx:-12, labelDy:22, unlockAt:20 }
   ];
 
