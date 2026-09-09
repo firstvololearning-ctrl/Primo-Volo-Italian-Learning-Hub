@@ -416,7 +416,7 @@ window.PASSPORT_REGIONS = [
 
     landmarks: [
       {
-        name: "Pompei",
+        name: "Pompeii",
         image:
           "images/passport/landmarks/landmark-02.png",
         primary: true

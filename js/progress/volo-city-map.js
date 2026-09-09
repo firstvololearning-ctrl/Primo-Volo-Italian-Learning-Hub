@@ -779,7 +779,7 @@
               <div>
                 <span>🏛️ Luogo da scoprire</span>
                 <strong id="voloCityPreviewLandmarkName">
-                  Pompei
+                  Pompeii
                 </strong>
               </div>
             </div>
