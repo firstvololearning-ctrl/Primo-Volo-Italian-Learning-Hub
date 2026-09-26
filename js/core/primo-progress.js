@@ -182,7 +182,8 @@ async function init() {
     renderReport(profiles[0],await stateForProfile(profiles[0].id));
   } catch(error) {
     console.error("Primo Progress could not load.",error);
-    renderState("Progress could not be loaded","No student data was changed. Please try again.",'<button class="button button-primary" type="button" onclick="location.reload()">Try again</button>',error?.message||"");
+    renderState("Progress could not be loaded","No student data was changed. Please try again.",'<button class="button button-primary" type="button" id="retryProgress">Try again</button>',error?.message||"");
+    app.querySelector("#retryProgress").addEventListener("click",()=>location.reload());
   }
 }
 
