@@ -1,0 +1,33 @@
+/* This poster prints as one sheet; supporting reading remains on screen. */
+body.vendemmia-page,
+.vendemmia-page .resource-image-frame { background: #fff; }
+.poster-download { text-align: center; }
+.poster-download a { color: var(--blue); font-weight: 700; }
+
+@media print {
+  .vendemmia-page .resource-heading,
+  .vendemmia-page .back-link,
+  .vendemmia-page .poster-download,
+  .vendemmia-page .context-card,
+  .vendemmia-page .footer { display: none !important; }
+
+  .vendemmia-page .resource-image-frame {
+    margin: 0 !important;
+    padding: 0 !important;
+    border: 0 !important;
+    box-shadow: none !important;
+    break-after: auto !important;
+    page-break-after: auto !important;
+  }
+
+  .vendemmia-page .resource-image-frame img {
+    display: block !important;
+    width: auto !important;
+    height: 9.9in !important;
+    max-width: 100% !important;
+    max-height: 9.9in !important;
+    margin: 0 auto !important;
+    object-fit: contain !important;
+    border-radius: 0 !important;
+  }
+}
