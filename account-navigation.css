@@ -1,1 +1,4 @@
 .first-volo-site-nav{box-sizing:border-box;display:flex;flex-wrap:wrap;justify-content:flex-end;gap:8px 18px;max-width:1200px;margin:8px auto;padding:4px 16px;font:600 14px/1.4 system-ui,sans-serif}.first-volo-site-nav a{display:inline-flex;align-items:center;min-height:44px;color:#203f72;text-decoration:underline;text-underline-offset:3px}.first-volo-site-nav a:focus-visible{outline:3px solid #ad6411;outline-offset:3px;border-radius:4px}@media(max-width:600px){.first-volo-site-nav{justify-content:center;gap:4px 16px}}@media print{.first-volo-site-nav{display:none!important}}
+
+body[data-access-status] > nav.first-volo-site-nav{display:flex!important}
+@media print{body[data-access-status] > nav.first-volo-site-nav{display:none!important}}
